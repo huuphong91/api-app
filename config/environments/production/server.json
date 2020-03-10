@@ -3,10 +3,10 @@
   "port": "1340",
   "production": true,
   "proxy": {
-    "enabled": false,
+    "enabled": true,
     "ssl": true,
     "host": "free.taitrongluc.com",
-    "port": 9999
+    "port": 443
   },
   "cron": {
     "enabled": true

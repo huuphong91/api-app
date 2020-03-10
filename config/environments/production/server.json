@@ -3,7 +3,7 @@
   "port": "${process.env.PORT || 1340}",
   "production": true,
   "proxy": {
-    "enabled": false,
+    "enabled": true,
     "ssl": true,
     "host": "free.taitrongluc.com",
     "port": 8443

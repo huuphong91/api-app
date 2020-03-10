@@ -1,12 +1,15 @@
 {
-  "host": "localhost",
-  "port": "${process.env.PORT || 1337}",
+  "host": "139.180.213.47",
+  "port": "${process.env.NODE_PORT || 1339}",
   "production": true,
   "proxy": {
-    "enabled": false
+    "enabled": true,
+    "ssl": true,
+    "host": "api.taitrongluc.com",
+    "port": 443
   },
   "cron": {
-    "enabled": false
+    "enabled": true
   },
   "admin": {
     "autoOpen": false

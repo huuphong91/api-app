@@ -1,12 +1,12 @@
 {
   "host": "139.180.214.103",
-  "port": "${process.env.PORT || 1340}",
+  "port": "1340",
   "production": true,
   "proxy": {
     "enabled": false,
     "ssl": true,
     "host": "free.taitrongluc.com",
-    "port": 8443
+    "port": 9999
   },
   "cron": {
     "enabled": true

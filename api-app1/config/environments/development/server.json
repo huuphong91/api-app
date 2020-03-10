@@ -1,0 +1,13 @@
+{
+  "host": "139.180.213.47",
+  "port": 1337,
+  "proxy": {
+    "enabled": false
+  },
+  "cron": {
+    "enabled": false
+  },
+  "admin": {
+    "autoOpen": false
+  }
+}
